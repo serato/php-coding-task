@@ -2,7 +2,7 @@
 
 namespace Orm;
 
-use ActiveRecordInterface;
+use Orm\ActiveRecordInterface;
 
 /**
  * ActiveRecord
