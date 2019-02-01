@@ -3,10 +3,10 @@
 ## temporary put skeleton here.
 
 ### some issue notes in progress (shall be removed after)
-[] The deployment will be done via Docker. Will move codebase
-[] implementation is done in PHP 7.2
-[] suggest orm classes namespace may cause confusion
-[*] Task 1
+- [ ] The deployment will be done via Docker. Will move codebase
+- [ ] implementation is done in PHP 7.2
+- [ ] suggest orm classes namespace may cause confusion
+- \[x] Task 1
 
 ### Task 1
 
