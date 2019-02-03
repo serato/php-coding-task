@@ -1,12 +1,43 @@
 # PHP Coding Tasks at Serato
 
-## temporary put skeleton here.
+### Improvement
+This project means to test candidate PHP skills. I created a little DevOps environment for me to test out some functions. The project is running under Docker. I also applied Composer's autoload mechanism so that I can comply with PSR-4 standards. Save huge time in writing require/include calls when importing PHP classes. As for the frontend pages, I only applied basic PHP to run as template engine.
+
+### Deployment Manual
+The deployment work is primarily done via terminal. Below tools are required:
+
+- Docker
+- Composer
+
+WARNING: docker-compose.yml requires attention as the contain will use port 8081. If you need to use another port, please make change to do so.
+
+1. Navigate to project root folder.
+```
+cd php-coding-task
+```
+2. Get Composer Executable (composer.phar)
+
+    For more details please visit: https://getcomposer.org/doc/00-intro.md
+
+3. Execute composer command
+```
+./composer.phar dump-autoload
+```
+
+4. Start Docker container
+```
+docker-compose up
+```
+
+5. Open up a browser
 
 ### some issue notes in progress (shall be removed after)
-- [ ] The deployment will be done via Docker. Will move codebase
-- [ ] implementation is done in PHP 7.2
-- [ ] suggest orm classes namespace may cause confusion
+- \[x] The deployment will be done via Docker. Will move codebase
+- \[x] implementation is done in PHP 7.2
+- \[x] suggest orm classes namespace may cause confusion; updated with full namespace path
 - \[x] Task 1
+- \[x] Task 1-2
+- \[x] Questions 1
 
 ### Task 1
 
