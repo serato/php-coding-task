@@ -1,0 +1,12 @@
+{
+    "name": "serato/php-coding-task",
+    "description": "Serato PHP Coding Test",
+    "keywords": ["php", "project template"],
+    "license": "Apache-2.0",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Orm\\": "orm"
+        }
+    }
+}
