@@ -28,8 +28,13 @@
                 <pre><?= $srcContent;?></pre>
             </div>
         <?php elseif (!empty($pageContent)):?>
-            <h3>Test Space</h3>
-            <p><?=$pageContent;?></p>
+            <h3>Source Files</h3>
+            <?php foreach($pageContent as $tempContent):?>
+                <div style="display:block; border:1px solid; height:500px; width:90%; vertical-align: text-top; overflow: scroll;">
+                    <em><?= $tempContent[0];?></em>
+                    <pre><?= $tempContent[1];?></pre>
+                </div>
+            <?php endforeach;?>
         <?php elseif ($_SERVER['REQUEST_URI'] == "/"): ?>
             <ol>
                 <li>
